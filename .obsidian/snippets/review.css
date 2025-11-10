@@ -1,0 +1,20 @@
+.callout[data-callout="weekly-review-tasks"] {
+    /* --callout-color: 166, 84, 55; */
+    --callout-color: 2, 53, 53;
+    --callout-icon: lucide-book-check;
+    background-color: rgba(var(--callout-color), 0.3);
+}
+
+.callout[data-callout="weekly-review-ideas"] {
+    /* --callout-color: 191, 126, 4; */
+    --callout-color: 1, 89, 88;
+    --callout-icon: lucide-lightbulb;
+    background-color: rgba(var(--callout-color), 0.3);
+}
+
+.callout[data-callout="weekly-review-projects"] {
+    /* --callout-color: 217, 164, 4; */
+    --callout-color: 0, 143, 140;
+    --callout-icon: lucide-hammer;
+    background-color: rgba(var(--callout-color), 0.3);
+}

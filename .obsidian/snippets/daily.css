@@ -1,0 +1,36 @@
+.callout[data-callout="daily-due-tasks"] {
+    --callout-color: 166, 84, 55;
+    --callout-icon: lucide-calendar-check;
+    background-color: rgba(var(--callout-color), 0.3);
+}
+
+.callout[data-callout="daily-selected-tasks"] {
+    --callout-color: 191, 126, 4;
+    --callout-icon: lucide-list-check;
+    background-color: rgba(var(--callout-color), 0.3);
+}
+
+.callout[data-callout="daily-key-dates"] {
+    --callout-color: 2, 53, 53;
+    --callout-icon: lucide-calendar-range;
+    background-color: rgba(var(--callout-color), 0.3);
+}
+
+.callout[data-callout="daily-meetings"] {
+    --callout-color: 1, 89, 88;
+    --callout-icon: lucide-notebook-pen;
+    background-color: rgba(var(--callout-color), 0.3);
+}
+
+.callout[data-callout="daily-pto"] {
+    --callout-color: 0, 143, 140;
+    --callout-icon: lucide-users;
+    background-color: rgba(var(--callout-color), 0.3);
+}
+
+.callout[data-callout="daily-notes"] {
+    /* --callout-color: 77, 32, 44; */
+    --callout-color: 166, 85, 55;
+    --callout-icon: lucide-users;
+    background-color: rgba(var(--callout-color), 0.3);
+}
