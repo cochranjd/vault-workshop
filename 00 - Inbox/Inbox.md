@@ -1,0 +1,13 @@
+- [ ] Investigate JQL MixPanel queries
+- [ ] Reach out to Kristin about SOW on QBurst and InfoSys #doit
+- [ ] Figure out plan on removing UAT column
+- [ ] Remind team to work on getting out Google Suite
+- [ ] Request Data Warehouse team create dynamic tables for Gates users and Gates classes
+- [ ] Discuss data retention Scott, Chris, Kevin, Tyler & Erica
+- [ ] Set up document on troubleshooting during IRMs
+- [ ] Investigate Sentry JS noise
+- [ ] Set up meeting with #people/andrew-hood and #people/thiago-vinicius about OTKv2 roadmap #doit 
+- [ ] Review New Relic synthetics from #people/dan-nelson [slack link](https://imaginelearning.slack.com/archives/D053321MLKB/p1762797452577989)
+- [ ] Investigate Clever test setup for #people/earl-gresh and #people/jesal-rathod
+- [ ] set up 1-on-1 for teammates who don't have them right now
+- [ ] Investigate pentest findings

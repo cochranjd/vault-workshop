@@ -2,7 +2,7 @@
   "choices": [
     {
       "id": "fb92010e-dca9-4681-84c5-9403239dd5b6",
-      "name": "Create Project",
+      "name": "Project",
       "type": "Template",
       "command": true,
       "templatePath": "99 - Meta/01 - Templates/04 - Project Charter.md",
@@ -32,7 +32,7 @@
     },
     {
       "id": "e8f39d24-c646-4745-bd70-96992043c3af",
-      "name": "Create Meeting",
+      "name": "Meeting",
       "type": "Template",
       "command": true,
       "templatePath": "99 - Meta/01 - Templates/01 - Meeting Minutes.md",
@@ -62,7 +62,7 @@
     },
     {
       "id": "e793ae25-5285-4878-ae09-44a8e5c5cc0a",
-      "name": "Create Idea",
+      "name": "Idea",
       "type": "Template",
       "command": true,
       "templatePath": "99 - Meta/01 - Templates/02 - Ideas.md",
@@ -92,7 +92,7 @@
     },
     {
       "id": "0284d124-4e3c-4fb9-a2f2-289a84dfd416",
-      "name": "Create Kanban",
+      "name": "Kanban",
       "type": "Template",
       "command": true,
       "templatePath": "99 - Meta/01 - Templates/30 - Project Kanban.md",
@@ -103,6 +103,36 @@
       "folder": {
         "enabled": false,
         "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFile": true,
+      "fileOpening": {
+        "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "7bcf0300-61f8-4ddb-b659-e3fe907d5345",
+      "name": "Sync",
+      "type": "Template",
+      "command": true,
+      "templatePath": "99 - Meta/01 - Templates/04 - Sync.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{DATE}} {{value}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "02 - Meetings"
+        ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
